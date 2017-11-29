@@ -8,8 +8,25 @@
     "test": "test"
   },
   "scripts": {
+    "clean": "rimraf dist",
+    "build": "tsc",
     "test": "karma start"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine": "^2.8.2",
+    "@types/karma": "^1.7.2",
+    "jasmine-core": "^2.8.0",
+    "karma": "^1.7.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-typescript": "^3.0.8",
+    "karma-typescript-preprocessor": "^0.3.1",
+    "rimraf": "^2.6.2",
+    "typescript": "^2.6.2",
+    "typings": "^2.1.1"
+  }
 }
