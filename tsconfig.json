@@ -3,7 +3,7 @@
     "target": "es5",
     "module": "commonjs",
     "sourceMap": true,
-    "outDir": "dist",
+    "outDir": "dist/ts/",
     "lib": ["es5", "es2015.collection", "es2015.promise"]  
   },
   "include": [
